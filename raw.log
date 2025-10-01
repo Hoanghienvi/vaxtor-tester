@@ -1,0 +1,38 @@
+[2025-09-28T13:53:04.247Z]
+GET / HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Brave";v="140"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8
+Sec-GPC: 1
+Accept-Language: en-US,en;q=0.5
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+Cookie: hasplmlang=_int_
+
+[2025-09-28T13:53:44.327Z]
+GET / HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Brave";v="140"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8
+Sec-GPC: 1
+Accept-Language: en-US,en;q=0.5
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+Cookie: hasplmlang=_int_
+

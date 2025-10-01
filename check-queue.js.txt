@@ -1,0 +1,21 @@
+// check-queue.js
+const fs = require('fs');
+const path = require('path');
+
+const QUEUE_PATH = path.join(__dirname, 'queue.json');
+
+if (!fs.existsSync(QUEUE_PATH)) {
+  console.log('❌ queue.json NOT FOUND');
+  process.exit(0);
+}
+
+try {
+  const arr = JSON.parse(fs.readFileSync(QUEUE_PATH, 'utf8') || '[]');
+  console.log('📦 queue length:', arr.length);
+  console.log('📋 last 5 entries:');
+  arr.slice(-5).forEach((x, i) => {
+    console.log(`${arr.length - (arr.slice(-5).length) + i + 1}:`, x);
+  });
+} catch (e) {
+  console.error('❌ Error reading queue.json:', e.message);
+}

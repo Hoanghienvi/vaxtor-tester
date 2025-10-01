@@ -1,0 +1,7 @@
+vaxalpr-collector/
+ ├── config.js          # Config chung (port, DB path, image dir)
+ ├── db.js              # Xử lý SQLite (kết nối, tạo bảng, insert)
+ ├── server.js          # TCP server lắng nghe Vaxtor
+ ├── processor.js       # Xử lý dữ liệu JSON từ Vaxtor -> chuẩn hóa object
+ ├── index.js           # Entry point (khởi chạy)
+ └── package.json
