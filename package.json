@@ -1,7 +1,6 @@
 {
   "name": "vaxtor",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,8 +10,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bootstrap": "^5.3.8",
+    "chart.js": "^4.5.0",
+    "dayjs": "^1.11.18",
     "ejs": "^3.1.10",
+    "exceljs": "^4.4.0",
     "express": "^5.1.0",
     "sqlite3": "^5.1.7"
-  }
+  },
+  "description": ""
 }
